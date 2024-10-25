@@ -1,18 +1,27 @@
 {
-  "name": "typescript-learning",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ts-helpers",
+  "version": "0.0.1",
+  "description": "Collect functions that support typescript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mioriaty/js-ts-helpers.git"
   },
   "keywords": [
     "typescript",
     "helpers"
   ],
-  "author": "",
+  "author": "mioriaty <mioriaty@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mioriaty/js-ts-helpers/issues"
+  },
+  "homepage": "https://github.com/mioriaty/js-ts-helpers#readme",
   "dependencies": {
     "typescript": "^5.6.3"
   },
@@ -21,5 +30,8 @@
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "typescript-eslint": "^8.11.0"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
