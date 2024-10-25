@@ -1,5 +1,5 @@
 {
-  "name": "ts-helpers",
+  "name": "@mioriaty/ts-helpers",
   "version": "0.0.1",
   "description": "Collect functions that support typescript",
   "main": "lib/index.js",
@@ -16,7 +16,7 @@
     "typescript",
     "helpers"
   ],
-  "author": "mioriaty <mioriaty@gmail.com>",
+  "author": "@mioriaty <mioriaty@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mioriaty/js-ts-helpers/issues"
